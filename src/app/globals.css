@@ -1,0 +1,4 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root{color-scheme:dark}body{margin:0;background:#020617;color:#e2e8f0}*{box-sizing:border-box}.scrollbar-thin{scrollbar-width:thin;scrollbar-color:#334155 transparent}button,input,select,textarea{font:inherit} .xterm{height:100%}

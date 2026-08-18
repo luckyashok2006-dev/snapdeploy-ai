@@ -1,0 +1,2 @@
+'use client';
+export function SketchpadModal({open,onClose}:{open:boolean;onClose:()=>void}){ if(!open) return null; return <div className="fixed inset-0 z-50 grid place-items-center bg-black/70"><div className="w-[720px] rounded-3xl bg-slate-900 p-6"><h2 className="text-xl font-bold">Sketchpad</h2><div className="mt-4 h-80 rounded-2xl bg-slate-950 bg-[radial-gradient(#334155_1px,transparent_1px)] [background-size:18px_18px]"/><button onClick={onClose} className="mt-4 rounded-xl bg-indigo-500 px-4 py-2">Use sketch</button></div></div>}
